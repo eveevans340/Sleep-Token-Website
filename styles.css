@@ -24,3 +24,7 @@ p {
     font-size: 17px;
     font-family: 'Comissioner';
 }
+
+a {
+    color: rgba(217, 199, 184, 1);
+}
