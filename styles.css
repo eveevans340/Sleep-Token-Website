@@ -11,37 +11,46 @@ h1 {
     text-align: center;
     font-family: 'Charm';
     font-weight: 100;
+    display: inline-block;
 }
 
 h2 {
     color: rgba(217, 171, 126, 1);
-    font-size: 24px;
+    font-size: 40px;
     font-family: 'Charm';
-    
 }
 
 p {
     color: rgba(217, 199, 184, 1);
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Comissioner';
 }
 
 a {
     color: rgba(217, 199, 184, 1);
     font-size: 24px;
-    text-align: center;
 }
 
 nav {
     background-color: rgba(89, 21, 46, 1);
     height: 47px;
-    vertical-align: middle;
+    text-align: center;
 }
 
 footer {
     background-color: rgba(89, 21, 46, 1);
     text-align: center;
     color: rgba(217, 199, 184, 1);
-    font-size: 16px;
     height: 41px;
+}
+
+.container {
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.Logo {
+    margin: 15px;
 }
