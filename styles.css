@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Charm');
 @import url('https://fonts.googleapis.com/css2?family=Commissioner');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script');
 
 body {
     background-color: rgba(38, 38, 37, 1);
+    margin: 0;
 }
 
 h1 {
     color: rgba(196, 152, 114, 1);
     font-size: 64px;
     text-align: center;
-    font-family: 'Charm';
+    font-family: 'Petit Formal Script';
     font-weight: 100;
-    display: inline-block;
+    line-height: 80px;
 }
 
 h2 {
     color: rgba(217, 171, 126, 1);
     font-size: 40px;
-    font-family: 'Charm';
+    font-family: 'Petit Formal Script';
+    font-weight: 90;
 }
 
 p {
     color: rgba(217, 199, 184, 1);
     font-size: 20px;
-    font-family: 'Comissioner';
 }
 
 a {
@@ -31,17 +32,18 @@ a {
     font-size: 24px;
 }
 
-nav {
-    background-color: rgba(89, 21, 46, 1);
-    height: 47px;
-    text-align: center;
-}
-
 footer {
     background-color: rgba(89, 21, 46, 1);
     text-align: center;
     color: rgba(217, 199, 184, 1);
     height: 41px;
+    line-height: 30px;
+}
+
+nav {
+    background-color: rgba(89, 21, 46, 1);
+    height: 47px;
+    text-align: center;
 }
 
 .container {
@@ -52,5 +54,28 @@ footer {
 }
 
 .Logo {
-    margin: 15px;
+    float: left;
+    position: absolute;
+    top: 15px;
+    width: 120px;
+}
+
+header {
+    vertical-align: middle;
+    height: 105px;
+}
+
+.Cover {
+    height: 775px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+aside {
+    float: right;
+}
+
+main {
+    height: 795px;
+    margin-left: 10px;
 }
