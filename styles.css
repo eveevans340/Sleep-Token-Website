@@ -37,20 +37,14 @@ footer {
     text-align: center;
     color: rgba(217, 199, 184, 1);
     height: 41px;
-    line-height: 30px;
+    line-height: 41px;
 }
 
 nav {
     background-color: rgba(89, 21, 46, 1);
     height: 47px;
+    line-height: 47px;
     text-align: center;
-}
-
-.container {
-    display: inline-block;
-    width: 70%;
-    text-align: left;
-    vertical-align: top;
 }
 
 .Logo {
@@ -73,9 +67,14 @@ header {
 
 aside {
     float: right;
+    width: auto;
 }
 
 main {
     height: 795px;
     margin-left: 10px;
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    vertical-align: top;
 }
